@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="unknown.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="12.7"
+     inkscape:cx="27.677165"
+     inkscape:cy="20.433071"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#333333;fill-opacity:1;stroke:#666666;stroke-width:0.492853;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1"
+       width="12.207148"
+       height="12.207148"
+       x="0.24642634"
+       y="0.24642634" />
+    <path
+       d="m 8.7583344,4.4238977 q 0,0.4909666 -0.1753452,0.876726 Q 8.407644,5.6813733 8.1220818,5.9769552 7.8415295,6.2625174 7.4758095,6.5130106 7.1100895,6.7635037 6.6992807,6.9989673 V 8.1261865 H 5.8025152 V 6.5981783 Q 6.1281563,6.4128133 6.503896,6.1923794 6.8846456,5.9719454 7.1251191,5.7465015 7.4156911,5.4859887 7.5760067,5.2104462 7.7363224,4.9298939 7.7363224,4.4990456 q 0,-0.5661145 -0.3857595,-0.841657 -0.3807496,-0.2805523 -0.986943,-0.2805523 -0.5410652,0 -1.0270219,0.1703354 Q 4.8556511,3.717507 4.5750988,3.8928522 H 4.5250001 V 2.8708401 Q 4.8756906,2.7355738 5.4117459,2.6303667 5.9528111,2.5201497 6.433758,2.5201497 q 1.0771205,0 1.6983435,0.5260357 0.6262329,0.5210257 0.6262329,1.3777123 z M 6.7794385,10.130132 H 5.7574265 V 9.0730506 h 1.022012 z"
+       id="text1"
+       style="font-size:10.2602px;fill:#666666;stroke-width:0.856368"
+       aria-label="?" />
+  </g>
+</svg>
