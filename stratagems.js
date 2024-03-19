@@ -96,9 +96,9 @@ const stratagems = [
         type: "supply:support-weapon",
     },
     {
-        name: "Spear",
+        name: "FAF-14 SPEAR Launcher",
         sequence: ["down", "down", "up", "down", "down"],
-        icon: "spear.svg",
+        icon: "faf-14-spear-launcher.svg",
         type: "supply:support-weapon",
     },
     {
