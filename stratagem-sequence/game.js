@@ -3,6 +3,7 @@ var currentStep = 0;
 var currentGuessElement = null;
 var guessesMade = 0;
 var guessIndexElement = null;
+var debugMode = false;
 var isComplete = false;
 
 function mapInputToDirection(input) {
@@ -63,20 +64,23 @@ function nextInSequence(direction) {
     }
 }
 
-var debugIndex = -1;
+var debugIndex = 0;
 function onKeyDown(event) {
     const input = event.key;
-    if (input === "n") {
+    if (input === "n" && debugMode) {
+        debugIndex++;
+        const date = new Date();
+        date.setDate(date.getDate() + debugIndex);
+        stratagem = selectStratagem(date);
+        console.log(stratagem.name);
         currentStep = 0;
         currentGuessElement = null;
         guessesMade = 0;
         guessIndexElement = null;
-        debugIndex = (debugIndex + 1) % stratagems.length;
-        stratagem = stratagems[debugIndex];
         startGame();
     }
 
-    if (input === "t") {
+    if (input === "t" && debugMode) {
         testABunchOfDates();
     }
 
