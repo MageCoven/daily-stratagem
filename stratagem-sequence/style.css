@@ -52,6 +52,7 @@
 
 #stratagem-icon {
     object-fit: contain;
+    border: 1px solid black;
 }
 
 #stratagem-name {
