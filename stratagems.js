@@ -234,9 +234,9 @@ const stratagems = [
         type: "supply:backpack",
     },
     {
-        name: "Tesla Tower",
+        name: "A/ARC-3 Tesla Tower",
         sequence: ["down", "up", "right", "up", "left", "right"],
-        icon: "tesla_tower.svg",
+        icon: "a-arc-3-tesla-tower.svg",
         type: "defensive",
     },
     {
