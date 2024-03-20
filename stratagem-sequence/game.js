@@ -3,6 +3,7 @@ var currentStep = 0;
 var currentGuessElement = null;
 var guessesMade = 0;
 var guessIndexElement = null;
+var isComplete = false;
 
 function mapInputToDirection(input) {
     switch (input) {
@@ -52,6 +53,7 @@ function nextInSequence(direction) {
             document.querySelector(
                 "#stratagem-icon"
             ).src = `../images/stratagems/${stratagem.icon}`;
+            isComplete = true;
         }
     } else {
         currentGuessElement = null;
@@ -79,7 +81,7 @@ function onKeyDown(event) {
     }
 
     const direction = mapInputToDirection(input);
-    if (direction) {
+    if (direction && !isComplete) {
         nextInSequence(direction);
     }
 }
